@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="more">Аккаунт+Имя</string>
+
+    <string name="flashlight">ВСПЫШКА</string>
+    <string name="messenger_send_button_text">Отправить</string>
+
+    <string name="setting">НАСТРОЙКИ</string>
+    <string name="sound">ЗВУК</string>
+
+    <string name="vibrate">ВИБРАЦИЯ</string>
+    <string name="more_apps">БОЛЬШЕ ПРИЛОЖЕНИЙ</string>
+    <string name="clap_detected">ХЛОПОК ОБНАРУЖЕН</string>
+    <string name="whistle_detected">Свист обнаружен</string>
+    <string name="cancel">Отмена</string>
+    <string name="detection_started">Обнаружение запущенно</string>
+    <string name="active_shake">Активная тряска</string>
+    <string name="end_shake">Тряска завершена</string>
+    <string name="start_shake">начать трясти</string>
+    <string name="stop_shake">остановить тряску</string>
+    <string name="start_vocal_service">запустить голосовой сервис</string>
+    <string name="stop_vocal_service">остановить голосовой сервис</string>
+</resources>

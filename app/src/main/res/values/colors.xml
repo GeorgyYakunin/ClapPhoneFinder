@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#ff000000</color>
+
+    <color name="com_facebook_blue">#ff6E8CCC</color>
+
+    <color name="com_facebook_messenger_blue">#ff4A40FF</color>
+    <color name="com_smart_login_code">#ff5045A2</color>
+
+    <color name="green">#ff23676D</color>
+    <color name="grey">#5CDEDEDE</color>
+
+    <color name="mycolorwhite">#ffffffff</color>
+
+    <color name="red">#ffFF4040</color>
+
+</resources>

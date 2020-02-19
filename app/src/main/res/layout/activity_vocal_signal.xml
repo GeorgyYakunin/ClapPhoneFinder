@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerVertical="true"
+    android:background="@color/mycolorwhite">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0.2"
+        android:src="@drawable/clap" />
+
+    <RelativeLayout
+        android:id="@+id/adViewContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/textSize"
+        android:background="@drawable/box">
+
+        <TextView
+            android:id="@+id/settingtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/clap_detected"
+            android:textColor="@color/com_facebook_blue"
+            android:textSize="@dimen/text"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settingtext">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/volume"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="@dimen/textSize"
+                    android:layout_height="@dimen/textSize"
+                    android:src="@drawable/home"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/volume"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/stop"
+                    android:layout_width="@dimen/textSize"
+                    android:layout_height="@dimen/textSize"
+                    android:src="@drawable/x" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <SurfaceView
+            android:id="@+id/PREVIEW"
+            android:layout_width="1.0dip"
+            android:layout_height="1.0dip"
+            android:background="#ff000000" />
+
+        <RelativeLayout
+            android:id="@+id/progressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:visibility="invisible">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:indeterminate="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
